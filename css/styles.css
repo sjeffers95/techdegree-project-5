@@ -4,5 +4,6 @@ h1 {
 
 .grid {
     display: grid;
-
+    grid-template-columns: 200px 200px 200px 200px;
+    grid-gap: 20px;
 }
