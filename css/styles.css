@@ -36,6 +36,6 @@ form {
 .gallery {
     max-width: 1024px;
     display: grid;
-    grid-template-columns: repeat(auto-fit, 200px);
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     grid-gap: 15px 20px;
 }
