@@ -22,7 +22,10 @@ main,
 main {
     margin: auto;
 }
-
+form {
+    max-width: 1024px;
+    margin: auto;
+}
 .search-bar input {
     padding: 15px;
     border-radius: 5px;
