@@ -34,7 +34,8 @@ form {
     width: 55%;
 }
 .gallery {
+    max-width: 1024px;
     display: grid;
-    grid-template-columns: repeat(4, 200px);
+    grid-template-columns: repeat(auto-fit, 200px);
     grid-gap: 15px 20px;
 }
