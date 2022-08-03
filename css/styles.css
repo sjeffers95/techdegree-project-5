@@ -13,6 +13,9 @@ body {
 main {
     width: 100%;
 }
+a {
+    margin: 0;
+}
 .search-bar {
     display: flex;
     flex-direction: column;
@@ -39,6 +42,7 @@ form {
     max-width: 1024px;
     display: grid;
     grid-template-columns: repeat(auto-fit, 200px);
+    grid-auto-rows: 200px;
     grid-gap: 15px;
     justify-content: center;
     width: 100%;
